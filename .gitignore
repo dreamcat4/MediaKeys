@@ -1,0 +1,8 @@
+.DS_Store
+build
+
+# Inside *.xcodeproj/*
+*.pbxuser
+!default.pbxuser
+*.perspective*
+*.model*
