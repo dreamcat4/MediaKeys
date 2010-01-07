@@ -64,11 +64,13 @@ The XCodeProject builds a number of app bundles.
 
 ## Other issues (recommended to read)
 
-Before using MediaKeys you should rename the BundleIdentifier string in the iTunes package. (the BundleIdentifier is stored in the info.plist). This is a workaround because iTunes will launch whenever you hit the Play/Pause key. This will disable the use of the special media keys in iTunes.
+* Before using MediaKeys you should rename the BundleIdentifier string in the iTunes package. (the BundleIdentifier is stored in the info.plist). This is a workaround because iTunes will launch whenever you hit the Play/Pause key. This will disable the use of the special media keys in iTunes.
 
-There are the Bundle Identifiers for various other popular Music Players / Media Players. These are used for an "ignore list". Its likely that some other apps which also respond to the media keys aren't listed there. Add the relevant Bundle Ids to the list and re-compile. In case of problem, fire up the XCode Debugger to see whats happening.
+* There are the Bundle Identifiers for various other popular Music Players / Media Players. These are used for an "ignore list". Its likely that some other apps which also respond to the media keys aren't listed there. Add the relevant Bundle Ids to the list and re-compile. In case of problem, fire up the XCode Debugger to see whats happening.
 
-Oh yeah... and because MediaKeys.app has LSUIElement == true, they are not visible in the User Interface. Just `ps -ax | grep MediaKeys` to get the PID # or `killall -9 MediaKeys` to quit.
+* Its not really known yet how to block or intercept these media key events higher up in the AppKit / windowserver level. Certain keys (like volume up, volume down, and Expose key) will open a System Preferences Pane, or do other things when used in conjunction with a modifier key. You may try the iTunes trick again here and rename the relevant bundle identifiers.
+
+* MediaKeys.app has LSUIElement == true, they are not visible in the User Interface. Just `ps -ax | grep MediaKeys` to get the PID # or `killall -9 MediaKeys` to quit.
 
 Enjoy!
 
