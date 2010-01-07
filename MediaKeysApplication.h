@@ -7,11 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <IOKit/hidsystem/ev_keymap.h>
 
 @interface MediaKeysApplication : NSApplication
 {
 }
-- (BOOL)ignoreKey;
 
 @end
