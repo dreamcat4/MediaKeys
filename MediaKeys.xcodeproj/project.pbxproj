@@ -10,6 +10,22 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* MediaKeysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MediaKeysAppDelegate.m */; };
 		68A9832710F4BE8C00DCC270 /* MediaKeysApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9832610F4BE8C00DCC270 /* MediaKeysApplication.m */; };
+		68CE606810F6695800A2C932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		68CE606910F6695800A2C932 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		68CE606A10F6695800A2C932 /* Apple-Remastered.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F8784B10F4F52A00410956 /* Apple-Remastered.png */; };
+		68CE606B10F6695800A2C932 /* Apple-Remastered.icns in Resources */ = {isa = PBXBuildFile; fileRef = 68F8785B10F4F68100410956 /* Apple-Remastered.icns */; };
+		68CE606D10F6695800A2C932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		68CE606E10F6695800A2C932 /* MediaKeysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MediaKeysAppDelegate.m */; };
+		68CE606F10F6695800A2C932 /* MediaKeysApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9832610F4BE8C00DCC270 /* MediaKeysApplication.m */; };
+		68CE607110F6695800A2C932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		68CE607A10F6695C00A2C932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		68CE607B10F6695C00A2C932 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		68CE607C10F6695C00A2C932 /* Apple-Remastered.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F8784B10F4F52A00410956 /* Apple-Remastered.png */; };
+		68CE607D10F6695C00A2C932 /* Apple-Remastered.icns in Resources */ = {isa = PBXBuildFile; fileRef = 68F8785B10F4F68100410956 /* Apple-Remastered.icns */; };
+		68CE607F10F6695C00A2C932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		68CE608010F6695C00A2C932 /* MediaKeysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MediaKeysAppDelegate.m */; };
+		68CE608110F6695C00A2C932 /* MediaKeysApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9832610F4BE8C00DCC270 /* MediaKeysApplication.m */; };
+		68CE608310F6695C00A2C932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		68F8775810F4EA8700410956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		68F8775910F4EA8700410956 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		68F8775B10F4EA8700410956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -70,6 +86,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		68A9832610F4BE8C00DCC270 /* MediaKeysApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaKeysApplication.m; sourceTree = "<group>"; };
 		68A9834910F4C2EF00DCC270 /* MediaKeysApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaKeysApplication.h; sourceTree = "<group>"; };
+		68CE607510F6695800A2C932 /* MediaKeysVolumeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeysVolumeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CE608710F6695C00A2C932 /* MediaKeysVolumeDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeysVolumeDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F8776310F4EA8700410956 /* MediaKeysPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeysPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F8777410F4EA8D00410956 /* MediaKeysPause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeysPause.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F8778410F4EA9000410956 /* MediaKeysPrev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaKeysPrev.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +100,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		68CE607010F6695800A2C932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE607110F6695800A2C932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CE608210F6695C00A2C932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE608310F6695C00A2C932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68F8775E10F4EA8700410956 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +203,8 @@
 				68F8778410F4EA9000410956 /* MediaKeysPrev.app */,
 				68F8779410F4EACC00410956 /* MediaKeysNext.app */,
 				68F8780F10F4F33300410956 /* MediaKeysToggle.app */,
+				68CE607510F6695800A2C932 /* MediaKeysVolumeUp.app */,
+				68CE608710F6695C00A2C932 /* MediaKeysVolumeDown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +256,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		68CE606610F6695800A2C932 /* MediaKeysVolumeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CE607210F6695800A2C932 /* Build configuration list for PBXNativeTarget "MediaKeysVolumeUp" */;
+			buildPhases = (
+				68CE606710F6695800A2C932 /* Resources */,
+				68CE606C10F6695800A2C932 /* Sources */,
+				68CE607010F6695800A2C932 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeysVolumeUp;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MediaKeys;
+			productReference = 68CE607510F6695800A2C932 /* MediaKeysVolumeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CE607810F6695C00A2C932 /* MediaKeysVolumeDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CE608410F6695C00A2C932 /* Build configuration list for PBXNativeTarget "MediaKeysVolumeDown" */;
+			buildPhases = (
+				68CE607910F6695C00A2C932 /* Resources */,
+				68CE607E10F6695C00A2C932 /* Sources */,
+				68CE608210F6695C00A2C932 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeysVolumeDown;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MediaKeys;
+			productReference = 68CE608710F6695C00A2C932 /* MediaKeysVolumeDown.app */;
+			productType = "com.apple.product-type.application";
+		};
 		68F8775610F4EA8700410956 /* MediaKeysPlay */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68F8776010F4EA8700410956 /* Build configuration list for PBXNativeTarget "MediaKeysPlay" */;
@@ -346,11 +418,35 @@
 				68F8777710F4EA9000410956 /* MediaKeysPrev */,
 				68F8778710F4EACC00410956 /* MediaKeysNext */,
 				68F8780210F4F33300410956 /* MediaKeysToggle */,
+				68CE606610F6695800A2C932 /* MediaKeysVolumeUp */,
+				68CE607810F6695C00A2C932 /* MediaKeysVolumeDown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		68CE606710F6695800A2C932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE606810F6695800A2C932 /* InfoPlist.strings in Resources */,
+				68CE606910F6695800A2C932 /* MainMenu.xib in Resources */,
+				68CE606A10F6695800A2C932 /* Apple-Remastered.png in Resources */,
+				68CE606B10F6695800A2C932 /* Apple-Remastered.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CE607910F6695C00A2C932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE607A10F6695C00A2C932 /* InfoPlist.strings in Resources */,
+				68CE607B10F6695C00A2C932 /* MainMenu.xib in Resources */,
+				68CE607C10F6695C00A2C932 /* Apple-Remastered.png in Resources */,
+				68CE607D10F6695C00A2C932 /* Apple-Remastered.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68F8775710F4EA8700410956 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,6 +516,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		68CE606C10F6695800A2C932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE606D10F6695800A2C932 /* main.m in Sources */,
+				68CE606E10F6695800A2C932 /* MediaKeysAppDelegate.m in Sources */,
+				68CE606F10F6695800A2C932 /* MediaKeysApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CE607E10F6695C00A2C932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CE607F10F6695C00A2C932 /* main.m in Sources */,
+				68CE608010F6695C00A2C932 /* MediaKeysAppDelegate.m in Sources */,
+				68CE608110F6695C00A2C932 /* MediaKeysApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68F8775A10F4EA8700410956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,6 +618,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		68CE607310F6695800A2C932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediaKeys_Prefix.pch;
+				INFOPLIST_FILE = "MediaKeys-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MediaKeysVolumeUp;
+			};
+			name = Debug;
+		};
+		68CE607410F6695800A2C932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediaKeys_Prefix.pch;
+				INFOPLIST_FILE = "MediaKeys-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MediaKeysVolumeUp;
+			};
+			name = Release;
+		};
+		68CE608510F6695C00A2C932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediaKeys_Prefix.pch;
+				INFOPLIST_FILE = "MediaKeys-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MediaKeysVolumeDown;
+			};
+			name = Debug;
+		};
+		68CE608610F6695C00A2C932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediaKeys_Prefix.pch;
+				INFOPLIST_FILE = "MediaKeys-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MediaKeysVolumeDown;
+			};
+			name = Release;
+		};
 		68F8776110F4EA8700410956 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,6 +895,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		68CE607210F6695800A2C932 /* Build configuration list for PBXNativeTarget "MediaKeysVolumeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CE607310F6695800A2C932 /* Debug */,
+				68CE607410F6695800A2C932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CE608410F6695C00A2C932 /* Build configuration list for PBXNativeTarget "MediaKeysVolumeDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CE608510F6695C00A2C932 /* Debug */,
+				68CE608610F6695C00A2C932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		68F8776010F4EA8700410956 /* Build configuration list for PBXNativeTarget "MediaKeysPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

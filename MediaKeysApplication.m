@@ -26,7 +26,8 @@ void mpd_start()
 		int rv;
 		rv=system("/usr/bin/sudo /opt/local/bin/port load mpd");
 		printf("%i\n",rv);
-		while(system("/opt/local/bin/mpc load all\\ shuffle")) sleep(0.5);
+		while(system("/opt/local/bin/mpc volume 10")) sleep(0.5);
+		system("/opt/local/bin/mpc load all\\ shuffle");
 		system("/opt/local/bin/mpc shuffle");
 	}
 }
@@ -174,6 +175,18 @@ BOOL command(int mod)
 	{
 		printf("%s\n","============ mpd_next =============");
 		mpd_next();
+	}
+	
+	if([appName isEqualToString:@"MediaKeysVolumeUp"])
+	{
+		printf("%s\n","============ mpd_volume_up =============");
+		mpd_volume_up();
+	}
+	
+	if([appName isEqualToString:@"MediaKeysVolumeDown"])
+	{
+		printf("%s\n","============ mpd_volume_down =============");
+		mpd_volume_down();
 	}
 	
 	exit(0);
