@@ -26,7 +26,14 @@ void mpd_start()
 		int rv;
 		rv=system("/usr/bin/sudo /opt/local/bin/port load mpd");
 		printf("%i\n",rv);
-		while(system("/opt/local/bin/mpc volume 10")) sleep(0.5);
+		
+		int tries = 20;
+		while(system("/opt/local/bin/mpc volume 10") && tries) 
+		{
+			sleep(0.5);
+			tries--;	
+		}
+		
 		system("/opt/local/bin/mpc load all\\ shuffle");
 		system("/opt/local/bin/mpc shuffle");
 	}
