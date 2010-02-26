@@ -24,6 +24,7 @@ void mpd_start()
 	if( ! mpd_started() )
 	{
 		int rv;
+		system("/usr/bin/sudo /opt/local/bin/port unload mpd");
 		rv=system("/usr/bin/sudo /opt/local/bin/port load mpd");
 		printf("%i\n",rv);
 		
